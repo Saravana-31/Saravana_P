@@ -96,6 +96,10 @@ const AboutSection = () => {
                   <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
                   <span className="text-gray-300">MongoDB Associate Developer – MongoDB Inc., 2025</span>
                 </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span className="text-gray-300">Oracle APEX Cloud Developer – Oracle University, 2025</span>
+                </li>
               </ul>
             </CardContent>
           </Card>
