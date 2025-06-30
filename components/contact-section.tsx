@@ -25,7 +25,7 @@ const ContactSection = () => {
       await window.emailjs.sendForm("service_fi9kzgj", "template_jz7iwje", e.currentTarget)
 
       setFormStatus({
-        message: "✅ Message sent successfully!",
+        message: "😊Thank you for your message! You're awesome for reaching out — I'll get back to you soon!",
         isError: false,
       })
       ;(e.target as HTMLFormElement).reset()
