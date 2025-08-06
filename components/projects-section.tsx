@@ -35,7 +35,7 @@ const projects = [
     ],
     icon: ShoppingCart,
     color: "from-green-500 to-emerald-500",
-    demo: "https://auction-frontend-rose.vercel.app",
+    demo: "https://bidbank.onrender.com/bid",
     github: "http://github.com/Saravana-31/auction-frontend"
   },
   {
