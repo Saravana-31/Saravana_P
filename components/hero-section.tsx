@@ -116,7 +116,7 @@ export default function HeroSection() {
   onClick={() => {
     if (typeof window !== 'undefined') {
       const link = document.createElement('a')
-      link.href = '/resume.pdf'              // actual file path in /public
+      link.href = '/Resume.pdf'              // actual file path in /public
       link.download = 'Neural_CV.exe'        // name the downloaded file as Neural_CV.exe
       link.click()
     }
