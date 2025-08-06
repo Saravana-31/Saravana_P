@@ -112,20 +112,21 @@ export default function HeroSection() {
             transition={{ delay: 1 }}
             className="flex flex-wrap gap-4"
           >
-            <GlowingButton
-              onClick={() => {
-                if (typeof window !== 'undefined') {
-                  const link = document.createElement('a')
-                  link.href = '/resume.pdf'
-                  link.download = 'Saravana_P_Resume.pdf'
-                  link.click()
-                }
-              }}
-              className="bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700"
-            >
-              <Download className="w-5 h-5 mr-2" />
-              DOWNLOAD NEURAL_CV.exe
-            </GlowingButton>
+       <GlowingButton
+  onClick={() => {
+    if (typeof window !== 'undefined') {
+      const link = document.createElement('a')
+      link.href = '/resume.pdf'              // actual file path in /public
+      link.download = 'Neural_CV.exe'        // name the downloaded file as Neural_CV.exe
+      link.click()
+    }
+  }}
+  className="bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700"
+>
+  <Download className="w-5 h-5 mr-2" />
+  DOWNLOAD NEURAL_CV.exe
+</GlowingButton>
+
             <div className="flex gap-3">
               <GlowingButton
                 onClick={() => typeof window !== 'undefined' && window.open('https://github.com/Saravana-31', '_blank')}
