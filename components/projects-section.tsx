@@ -24,7 +24,7 @@ const projects = [
     github: "#"
   },
   {
-    title: "Online Auction Platform",
+    title: "BidBank - Online Auction Platform",
     description: "Real-time full-stack bidding with payments & user authentication",
     technologies: ["React", "Node.js", "MongoDB", "WebSockets"],
     features: [
