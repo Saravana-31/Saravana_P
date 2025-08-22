@@ -20,8 +20,8 @@ const projects = [
     ],
     icon: Brain,
     color: "from-blue-500 to-cyan-500",
-    demo: "#",
-    github: "#"
+    demo: "https://savi-ai.vercel.app",
+    github: "https://github.com/Saravana-31/Savi_AI"
   },
   {
     title: "BidBank - Online Auction Platform",
