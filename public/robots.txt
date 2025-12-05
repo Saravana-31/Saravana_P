@@ -1,0 +1,4 @@
+# SEO: Allow all bots and point to sitemap
+User-agent: *
+Allow: /
+Sitemap: https://saravana-p.tech/sitemap.xml
