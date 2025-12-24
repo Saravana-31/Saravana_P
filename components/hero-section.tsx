@@ -176,7 +176,7 @@ export default function HeroSection() {
               className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-red-500/50 shadow-2xl shadow-red-500/25"
             >
               <img
-                src="/Saravana.png"
+                src="/Saravana.jpg"
                 alt="Saravana P"
                 className="w-full h-full object-cover"
               />
