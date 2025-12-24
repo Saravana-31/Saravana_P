@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import './globals.css'
+import ChatbotWrapper from '@/components/ChatbotWrapper'
 
 // SEO: Enhanced metadata for portfolio
 export const metadata: Metadata = {
@@ -54,7 +55,10 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <ChatbotWrapper />
+      </body>
     </html>
   )
 }
