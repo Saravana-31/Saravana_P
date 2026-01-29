@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { ExternalLink, Github, Brain, ShoppingCart, Shield, Eye, TrendingUp } from 'lucide-react'
+import { ExternalLink, Github, Brain,Briefcase, ShoppingCart, Shield, Eye,WalletIcon, TrendingUp,Network} from 'lucide-react'
 import GlassCard from '@/components/glass-card'
 import GlowingButton from '@/components/glowing-button'
 
@@ -23,6 +23,51 @@ const projects = [
     demo: "https://savi-ai.vercel.app",
     github: "https://github.com/Saravana-31/Savi_AI"
   },
+  {
+  title: "Autonomous Intelligence Extraction Agent",
+  description: "Autonomous AI agent that extracts structured company intelligence using a local LLM and knowledge graph reasoning",
+  technologies: ["React", "Python (FastAPI)", "Local LLM (Phi-2)", "Knowledge Graph"],
+  features: [
+    "Autonomous information extraction from raw web content",
+    "Local LLM–powered reasoning and summarization",
+    "Knowledge graph construction for structured insights",
+    "Interactive React-based intelligence dashboard"
+  ],
+  icon: Network,
+  color: "from-purple-500 to-fuchsia-600",
+  demo: "https://autonomous-intel-agent.onrender.com",
+  github: "https://github.com/Saravana-31/Autonomous-Intel-Agent"
+},
+ {
+  title: "PM Internship Recommendation System",
+  description: "AI-driven internship matching solution for SIH Problem Statement 25034 with chatbot-based candidate query solving",
+  technologies: ["React", "Node.js", "Python (Flask)", "MongoDB"],
+  features: [
+    "Knowledge graph–based internship matching",
+    "Groq-powered chatbot for candidate query solving",
+    "Secure application and eligibility workflows",
+    "Scalable recommendation pipeline"
+  ],
+  icon: Briefcase,
+  color: "from-blue-500 to-indigo-500",
+  demo: "https://sih-pmirs-23zf9lje8-saravana-ps-projects.vercel.app  ",
+  github: "https://github.com/Saravana-31/SIH_PMIRS"
+ },
+ {
+  title: "SmartSpend – Intelligent Personal Finance Manager",
+  description: "AI-assisted personal finance platform for expense tracking, bill scanning, and conversational financial management",
+  technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Firebase", "OCR", "AI Chatbot"],
+  features: [
+    "OCR-based bill scanning to automatically extract and add expenses",
+    "AI-powered chatbot for adding, updating, and querying expenses",
+    "Currency conversion support for multi-currency expense tracking",
+    "Firebase authentication and real-time secure data storage"
+  ],
+  icon: WalletIcon,
+  color: "from-emerald-500 to-teal-600",
+  demo: "https://smart-spend.vercel.app",
+  github: "https://github.com/Saravana-31/Smart_Spend"
+},
   {
     title: "BidBank - Online Auction Platform",
     description: "Real-time full-stack bidding with payments & user authentication",

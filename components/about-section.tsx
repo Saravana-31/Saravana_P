@@ -11,11 +11,11 @@ const education = [
     degree: "B.Tech Artificial Intelligence and Machine Learning",
     school: "Kongu Engineering College",
     period: "2023-2027",
-    grade: "CGPA: 8.35/10"
+    grade: "CGPA: 8.16/10"
   },
   {
     degree: "Higher Secondary Education",
-    school: "Shri Maruthi Matric School",
+    school: "Shri Maruthi Matric Higher Secondary School",
     period: "2022-2023",
     grade: "94%"
   }
