@@ -9,6 +9,21 @@ import GlowingButton from '@/components/glowing-button'
 
 const projects = [
   {
+  title: "Mahamitra – An E-Commerce Platform",
+  description: "Production-ready e-commerce platform with AI shopping assistance, secure payments, and business analytics",
+  technologies: ["React", "TypeScript", "Supabase", "PostgreSQL", "Razorpay"],
+  features: [
+    "AI-powered shopping assistant for personalized customer support",
+    "Secure authentication, order management, and payment processing",
+    "Inventory, coupon, wallet, and product management system",
+    "Admin analytics dashboard with financial reporting and insights"
+  ],
+  note: "Due to client terms and conditions, the code base is not listed for this project.",
+  icon: ShoppingCart,
+  color: "from-pink-500 to-orange-500",
+  demo: "https://mahamitra-e-commence.vercel.app/"
+},
+  {
     title: "SaviAI – AI Interview Assistant",
     description: "Real-time facial emotion detection + resume vs job description match scoring",
     technologies: ["React", "Node.js", "TensorFlow.js", "MongoDB"],
@@ -34,8 +49,8 @@ const projects = [
     "Interactive React-based intelligence dashboard"
   ],
   icon: Network,
+  note: "Due to the use of a local LLM and proprietary data sources, the demo is not publicly available and codebase is listed in github.",
   color: "from-purple-500 to-fuchsia-600",
-  demo: "https://autonomous-intel-agent.onrender.com",
   github: "https://github.com/Saravana-31/Autonomous-Intel-Agent"
 },
  {
@@ -65,7 +80,7 @@ const projects = [
   ],
   icon: WalletIcon,
   color: "from-emerald-500 to-teal-600",
-  demo: "https://smart-spend.vercel.app",
+  demo: "https://aismartspend.vercel.app",
   github: "https://github.com/Saravana-31/Smart_Spend"
 },
   {
@@ -81,7 +96,7 @@ const projects = [
     icon: ShoppingCart,
     color: "from-green-500 to-emerald-500",
     demo: "https://bidbank.onrender.com",
-    github: "http://github.com/Saravana-31/auction-frontend"
+    github: "https://github.com/Saravana-31/online-auction-platform"
   },
   {
     title: "Credit Card Fraud Detection",
@@ -209,6 +224,11 @@ export default function ProjectsSection() {
                       </li>
                     ))}
                   </ul>
+                  {project.note ? (
+                    <p className="mt-4 text-sm font-semibold text-red-500">
+                      • {project.note}
+                    </p>
+                  ) : null}
                 </div>
 
                 {/* Action Buttons */}
