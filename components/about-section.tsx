@@ -43,9 +43,9 @@ const experience = [
 ]
 
 const certifications = [
+  "Java SE 17 Developer - Oracle University (2026)",
   "MongoDB Associate Developer - MongoDB Inc. (2025)",
   "Oracle APEX Cloud Developer - Oracle University (2025)",
-  "MS Word Expert - Udemy (2024)"
 ]
 
 export default function AboutSection() {
