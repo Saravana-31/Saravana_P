@@ -11,7 +11,7 @@ const education = [
     degree: "B.Tech Artificial Intelligence and Machine Learning",
     school: "Kongu Engineering College",
     period: "2023-2027",
-    grade: "CGPA: 8.16/10"
+    grade: "CGPA: 8.23 upto 6th Semester"
   },
   {
     degree: "Higher Secondary Education",
