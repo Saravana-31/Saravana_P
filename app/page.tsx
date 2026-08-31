@@ -159,11 +159,9 @@ export default function Home() {
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      direction: 'vertical',
-      gestureDirection: 'vertical',
-      smooth: true,
-      mouseMultiplier: 1,
-      smoothTouch: false,
+      smoothWheel: true,
+      wheelMultiplier: 1,
+      syncTouch: false,
       touchMultiplier: 2,
       infinite: false,
     })
@@ -184,7 +182,7 @@ export default function Home() {
     <div ref={containerRef} className="relative min-h-screen bg-black overflow-x-hidden">
       {/* 3D Background */}
       <div className="fixed inset-0 z-0">
-        <Canvas camera={{ position:, fov: 75 }}>
+        <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
           <Suspense fallback={null}>
             <Environment preset="night" />
             <DevilLogo />
