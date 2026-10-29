@@ -386,7 +386,7 @@ export default function HeroSection() {
             {/* Profile Image - ENHANCED ACCESSIBILITY METADATA */}
             <motion.div whileHover={{ scale: 1.05 }} className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-red-500/50 shadow-2xl shadow-red-500/25">
               <img 
-                src="/Saravana.jpg" 
+                src="/Professional Headshot with Glasses and Tilak.png" 
                 alt="Saravana P - AIML Developer Portfolio" 
                 className="w-full h-full object-cover" 
               />
